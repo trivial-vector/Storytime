@@ -29,11 +29,11 @@ This is a real time analysis so the results will change based on the weather con
 
 From all these cities:
 
-![multiplot](img\US_Weather.png)
+![multiplot](img/US_Weather.png)
 
 To these optimal locations:
 
-![final_result](img\map_final.png)
+![final_result](img/map_final.png)
 
 **Note**: These locations will be different every time you run the notebook.
 
