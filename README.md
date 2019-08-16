@@ -3,7 +3,7 @@
 I noticed a trend in your 06-Python-APIs homework: Your analysis, the main reason you write all that code, felt like an afterthought. "There appears to be a correlation between latitude and temperature" appeared more than a few times and while it's accurate, you can do better.
 <br>
 <br>
-It's up to us to provide you with tools you can use to analyze data but also to provide direction in how to give that analysis depth and context and in that regard, we can do better. _So_, I did the 06-Python-APIs homework again, following the same instructions you were given and only using skills you had at the time of submission. My hope is that you will look at this and see how you color outside the lines and still demonstrate the required skills for future homework assignments.
+It's up to us to provide you with tools you can use to analyze data but also to provide direction in how to give that analysis depth and context and in that regard, we can do better. _So_, I did the 06-Python-APIs homework again, following the same instructions you were given and only using skills you had at the time of submission. My hope is that you will look at this and see how you can color outside the lines and still demonstrate the required skills for future endeavors.
 <br>
 
 ## The Question
