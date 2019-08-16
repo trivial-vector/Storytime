@@ -8,13 +8,11 @@ It's up to us to provide you with tools you can use to analyze data but also to 
 
 ## The Question
 
----
 
 Every great data story starts with a targeted investigation. I want to know what places in the United States have the perfect weather conditions at any given moment shown in a single visualization. [Storytime](https://github.com/Ouroboros-analytics/Storytime/blob/master/Storytime.ipynb) walks you through my process of achieving that goal.
 
 ## Results
 
----
 
 This is a real time analysis so the results will change based on the weather conditions and season you run the code. The code will always return a map of the areas meeting the criteria of our "ideal" conditions:
 
@@ -39,6 +37,5 @@ To these optimal locations:
 
 ## Requirements
 
----
 
 I have provided the requirements.txt for this notebook if you want to run it on your machine. `cd` into this directory and activate whichever environment you chose (MW: base, TTH: pydata) and run `pip install -r requirements.txt`. It's likely that you will only have to install the `palettable` library but using a requirements file is a good skill to add to your arsenal.
