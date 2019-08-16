@@ -1,44 +1,44 @@
-# Data Storytelling
+# The Most Comfortable Place in America
 
-Demonstrating the art of telling a story with data by asking a question and answering it with _style_
-
-<details>
-<summary>Table of Contents</summary>
-
-- [Overview](#back-to-basics)
-- [More Than Numbers](#more-than-numbers)
-- [Resources](#Resources)
-
-</details>
-
-# Back To Basics
-
-### At the heart of it, data analysis is the process of asking a question and working towards an answer.
-
-In most disciplines, this involves the traditional process of:
-
-1. Ask a question
-2. Form a hypothesis
-3. Make a prediction
-4. Test the prediction
-5. Adjust and repeat
-
-For us (data analysts) it looks a little more like this:
-
-- Data Exists
-- Analyze the data
-- Visualize the data
-- Investigate trends
-- Tell the story of the data
-
-It's not a linear flow like the traditional method and you never formally ask a question. Yet, you are constantly answering questions along the way. You may backtrack on the process to analyze something interesting you've found or because you didn't get the results you were looking for. The last step, however, is a constant. Telling the story of your data effectively can be the difference between a successful study and mediocre one.
-
+I noticed a trend in your 06-Python-APIs homework: Your analysis, the main reason you write all that code, felt like an afterthought. "There appears to be a correlation between latitude and temperature" appeared more than a few times and while it's accurate, you can do better.
+<br>
+<br>
+It's up to us to provide you with tools you can use to analyze data but also to provide direction in how to give that analysis depth and context and in that regard, we can do better. _So_, I did the 06-Python-APIs homework again, following the same instructions you were given and only using skills you had at the time of submission. My hope is that you will look at this and see how you color outside the lines and still demonstrate the required skills for future homework assignments.
 <br>
 
-# More Than Numbers
+## The Question
 
-The value of your work may be evaluated by the accuracy of your number-crunching but it is judged by your ability to share your findings.
+---
 
-# Resources
+Every great data story starts with a targeted investigation. I want to know what places in the United States have the perfect weather conditions at any given moment shown in a single visualization. [Storytime](https://github.com/Ouroboros-analytics/Storytime/blob/master/Storytime.ipynb) walks you through my process of achieving that goal.
 
-[Palettable](https://github.com/jiffyclub/palettable)
+## Results
+
+---
+
+This is a real time analysis so the results will change based on the weather conditions and season you run the code. The code will always return a map of the areas meeting the criteria of our "ideal" conditions:
+
+- Temperature between 20-25 C (68-77 F)
+- Humidity between 40-50%
+- Cloud cover between 0-10%
+- Wind speed between 0.5-5.5 m/s (1-13 mph)
+
+### Example Result:
+
+---
+
+From all these cities:
+
+![multiplot](img\US_Weather.png)
+
+To these optimal locations:
+
+![final_result](img\map_final.png)
+
+**Note**: These locations will be different every time you run the notebook.
+
+## Requirements
+
+---
+
+I have provided the requirements.txt for this notebook if you want to run it on your machine. `cd` into this directory and activate whichever environment you chose (MW: base, TTH: pydata) and run `pip install -r requirements.txt`. It's likely that you will only have to install the `palettable` library but using a requirements file is a good skill to add to your arsenal.
